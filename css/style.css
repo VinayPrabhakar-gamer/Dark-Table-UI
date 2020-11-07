@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(2, 26, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(219, 219, 219);
+}
+
+table thead tr th, table tbody tr td{
+    padding: 10px 20px;
+    text-align: left;
+}
+
+table tbody tr{
+    background:rgb(2, 20, 48);
+}
+
+/* table tbody tr td{
+    text-align: center;
+} */
+
+.my-form .input{
+    outline: none;
+    background: rgb(15, 36, 70);
+    color: #ccc;
+    padding: 10px 20px;
+    border: none;
+}
+
+.my-form .search{
+    border: none;
+    padding: 10px 10px;
+    background: rgb(15, 36, 70);
+    color: #ccc;
+    transform: translateX(-20px);
+}
+
+.first-section{
+    margin-top: -120px;
+}
+
+.second-section{
+    margin-top: 40px;
+}
+
+table tbody tr td button i{
+    color:rgb(2, 20, 48);
+}
+
+table tbody tr td button{
+    background-color: rgb(37, 59, 94);
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+table tbody tr:hover .btn{
+    opacity: 1;
+}
+
+table tbody tr td:first-of-type{
+    border-left: 5px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+table tbody tr td:last-of-type{
+    border-right: 5px solid rgb(2, 20, 48);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+table tbody tr td.priority-200:first-of-type{
+    border-color: rgb(255, 158, 102);
+}
+
+table tbody tr td.priority-400:first-of-type{
+    border-color: rgb(127, 179, 127);
+}
+
+table tbody tr td.priority-600:first-of-type{
+    border-color: rgb(89, 124, 190);
+}
+
+table tbody tr td i.fa-circle{
+    transform: scale(0.5);
+}
+
+table tbody tr td i.priority-200{
+    color:  rgb(255, 158, 102);
+}
+
+table tbody tr td i.priority-400{
+    color:   rgb(127, 179, 127);
+}
+
+table tbody tr td i.priority-600{
+    color:  rgb(89, 124, 190);
+}
