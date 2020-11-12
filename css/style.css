@@ -108,3 +108,78 @@ table tbody tr td i.priority-400{
 table tbody tr td i.priority-600{
     color:  rgb(89, 124, 190);
 }
+
+@media (max-width: 1440px) and (min-width: 1024px){
+    .container{
+        width: 60%;
+    }
+
+    body{
+        font-size: 14px;
+    }
+
+    .first-section{
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+    .container{
+        width: 80%;
+    }
+
+    body{
+        font-size: 14px;
+    }
+
+    .first-section{
+        margin-top: -20px;
+    }
+
+    table tbody tr td button{
+        opacity: 1;
+    }
+
+    .my-form .input{
+        width: 92%;
+    }    
+
+    .my-form .search{
+        transform: translateX(10px);
+    }
+}
+
+@media(max-width: 768px) and (min-width: 425px){
+    body{
+        font-size: 14px;
+    }
+
+    table tbody tr td:first-of-type, table tbody tr td:last-of-type{
+        border: none;
+    }
+
+    body{
+        transform: scale(0.85);
+    }
+
+    table tbody tr td button{
+        opacity: 1;
+    }
+
+    .first-section{
+        margin-top: 0px;
+    }
+
+    .my-form .input, .my-form .search{
+        width:100%;
+    }
+
+    .my-form .search{
+        margin-top: 10px;
+        transform: translateX(0);
+    }
+
+    .second-section{
+        margin-top: 10px;
+    }
+}
